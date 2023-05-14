@@ -46,8 +46,14 @@ function App() {
        <ListCustomers customerList={discountData}/>
       </div>
       <p className="read-the-docs">
-        Results: {idCounter} and     
+        tickets ativados: {idCounter -1}.     
       </p>
+      <br/>
+      <h3>Study:</h3>
+      <p>Global complex state with functions to children components, to update this global state</p>
+      <p>What I see to update this simple project: <b>Using reducers and contexts</b></p>
+
+      <footer><b>Jonatas Ribeiro</b>.2023#</footer>
     </>
   )
 }
