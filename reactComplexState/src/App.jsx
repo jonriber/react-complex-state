@@ -21,7 +21,7 @@ function App() {
     setIdCounter(newValue)
     e.preventDefault()
     setDiscountData(prevState => {
-      return  [...prevState,{ customer:name, id: newValue}]
+      return  [...prevState,{ customer:name, id: newValue, left:4, used:false}]
     })
   }
 

@@ -3,7 +3,7 @@ import Customer from "./Customer"
 
 function ListCustomers(props){
 
-    const customers = props.customerList.map((customer) => <Customer data={customer}/>)
+    const customers = props.customerList.map((customer,key) => <Customer data={customer} key={key}/>)
 
        
     return(
